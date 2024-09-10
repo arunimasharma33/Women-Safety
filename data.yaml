@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['friendly-men', 'safe-women']
+
+roboflow:
+  workspace: abhi-wswkq
+  project: women-safety-vakhi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/abhi-wswkq/women-safety-vakhi/dataset/1
